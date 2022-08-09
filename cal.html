@@ -1,0 +1,37 @@
+<html>
+    <head> <link rel="stylesheet" href="layout.css"> </head> 
+    <script type="text/javascript" src="calculate.js"></script>
+    
+    <div class="calculator">
+        
+     
+        <input type="text" id ="result" class="calculator-screen" value="" disabled />
+      
+        <div class="calculator-keys"  display= "grid">
+      
+          <button type="button" class="operator" value="+" onclick="display('+')">+</button>
+          <button type="button" class="operator" value="-" onclick="display('-')">-</button>
+          <button type="button" class="operator" value="*" onclick="display('*')">&times;</button>
+          <button type="button" class="operator" value="/" onclick="display('/')">&divide;</button>
+      
+          <button type="button" value="4" onclick= "display ('4')" > 4 </button>
+          <button type="button" value="5" onclick= "display ('5')" > 5 </button>
+          <button type="button" value="6" onclick= "display ('6')" > 6 </button>
+          
+          <button type="button" value="7" onclick= "display ('7')" > 7 </button>
+          <button type="button" value="8" onclick= "display ('8')" > 8 </button>
+          <button type="button" value="9" onclick= "display ('9')" > 9 </button>
+          
+          <button type="button" value="1" onclick= "display ('1')" > 1 </button>
+          <button type="button" value="2" onclick= "display ('2')" > 2 </button>
+          <button type="button" value="3" onclick= "display ('3')" > 3 </button>
+
+          <button type="button" value="0" onclick= "display ('0')" > 0 </button>
+          <button type="button" class="decimal" value="." onclick="display ('.')" >.</button>
+          <button type="button" class="all-clear" value="all-clear" onclick="clearscreen()">AC</button>
+      
+          <button type="button" class="equal-sign" value="=" onclick="calculate1()" >=</button>
+      
+        </div>
+      </div>
+</html>
